@@ -73,7 +73,7 @@ export function ProductCard({ product }: ProductCardProps) {
 
             {/* Display Size */}
             {product.Size && (
-              <p className="text-sm text-pink-500 dark:text-pink-400 mb-2">Quantity: {product.Size}</p>
+              <p className="text-sm text-pink-500 dark:text-pink-400 mb-2"><Quanity></Quanity>: {product.Size}</p>
             )}
 
             <div className="flex items-baseline gap-2 mb-3">
